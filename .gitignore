@@ -99,4 +99,5 @@ styles/*.map
 *.swo
 *.swp
 *.vi
-*~
+*~*~
+contact.html

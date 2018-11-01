@@ -1,10 +1,9 @@
 .wrapper-contact {
-    margin-left: em(200);
-    margin-right: em(200);
+    margin: em(40) em(100);
     .main-heading {
         font-family: $title-font-heavy;
         font-weight: 500;
-        font-size: em(90);
+        font-size: em(100);
         margin-top: 0;
         line-height: 0.8;
         position: relative;
@@ -14,11 +13,7 @@
             position: absolute;
             top: em(10);
             left: em(10);
-
         }
-
-
-
     }
 }
 

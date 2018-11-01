@@ -3,3 +3,26 @@ $background-fill: white;
 $navbar-background: rgb(235, 235, 235);
 $brand-color-dark: rgb(26, 26, 26);
 $brand-color-black: rgb(0, 0, 0);
+
+// Font
+
+$title-font-heavy: 'Montserrat', sans-serif;
+
+// Linked fonts include:
+// reuglar 400, medium 500 (BODY), bold 700 (SMALL TITLES), bold 700 Italic (SMALL TITLES)... 
+// ...black 900 (TITLES), black 900 Italic (TITLES)
+
+// Use Photoshop Mockup as reference for which weights to use (note: Avenir costed $700 so it has been...
+// ...replaced by Montserrat
+
+// Typographic Defualts
+$line-height: 1.4;
+
+// Function to
+// Convert Px to Ems
+@function em($px, $bc: 16){
+    @return #{$px/$bc}em; 
+}
+
+// Utility variables
+$link-hover-selector: '&:hover, &:focus, &:active';

@@ -24,5 +24,8 @@ $line-height: 1.4;
     @return #{$px/$bc}em; 
 }
 
+// Media Breakpoints
+$tablet: em(768);
+
 // Utility variables
 $link-hover-selector: '&:hover, &:focus, &:active';

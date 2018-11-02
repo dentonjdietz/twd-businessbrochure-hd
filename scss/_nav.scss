@@ -2,7 +2,7 @@ nav {
 
     align-self: start;
     background-color: $navbar-background;
-    height: 80vh;
+    height: 65vh;
 
     .rotation-box {
         transform-origin: left top;
@@ -36,10 +36,30 @@ nav {
         font-weight: 500;
         font-size: 16px;
         padding: 0 20px;
+        margin-right: 30px;
     }
 
-
 }
+
+.shopping-basket {
+    text-align: center;
+    width: 90px;
+    padding-bottom: 40px;
+    background-color: $navbar-background;
+
+    a {
+        color: $brand-color-dark;
+        font-size: 1.9em;
+        text-align: center;
+    }
+}
+
+
+.rectangle {
+    height: 60px;
+    width: 45px;
+    background-color: $navbar-background;
+  }
 
 /* 
 

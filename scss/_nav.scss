@@ -2,7 +2,7 @@ nav {
 
     align-self: start;
     background-color: $navbar-background;
-    height: 60em;
+    height: 65vh;
 
     .rotation-box {
         transform-origin: left top;
@@ -21,7 +21,6 @@ nav {
         height:100%;
         line-height:90px;
         transform: translateX(-90%);
-        justify-content: space-between;
     }
 
     li {
@@ -36,7 +35,7 @@ nav {
         font-family: $title-font-heavy;
         font-weight: 500;
         font-size: 16px;
-        padding: 0 3em;
+        padding: 0 20px;
         margin-right: 30px;
     }
 

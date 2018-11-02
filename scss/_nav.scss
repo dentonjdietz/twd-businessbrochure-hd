@@ -12,7 +12,6 @@ nav {
     ul {
         display: flex;
         flex-direction: row-reverse;
-        position: absolute;
         margin-top: 0;
         list-style: none;
         padding: 0;
@@ -21,6 +20,7 @@ nav {
         height:100%;
         line-height:90px;
         transform: translateX(-90%);
+        position: relative;
     }
 
     li {
@@ -46,6 +46,7 @@ nav {
     width: 90px;
     padding-bottom: 40px;
     background-color: $navbar-background;
+    position: relative;
 
     a {
         color: $brand-color-dark;

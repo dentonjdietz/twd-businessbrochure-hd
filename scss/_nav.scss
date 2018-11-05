@@ -20,10 +20,7 @@ nav {
         line-height:90px;
         transform: translateX(-90%);
         background-color: $navbar-background;
-    }
-
-    li {
-        //display: block;
+        top: 0;
     }
     
 
@@ -34,7 +31,7 @@ nav {
         font-family: $title-font-heavy;
         font-weight: 500;
         font-size: 1.3em;
-        padding: 0 2em;
+        padding: 0 1.4em;
         margin-right: 30px;
     }
 

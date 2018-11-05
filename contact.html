@@ -11,55 +11,101 @@
 </head>
 <body>
     <div class="page-wrap">
-    <header>
+            <div class="nav-wrap">
             <nav>
+                    <div class="rotation-box">
                     <ul>
                         <li><a href="Contact">Contact</a></li>
                         <li><a href="Products">Products</a></li>
                         <li><a href="About">About</a></li>
                         <li><a href="Blog">Blog</a></li>
                         <li><a href="Home">Home</a></li>
+                        <div class="shopping">
                         <li><a href="shopping cart"><i class="fas fa-shopping-basket"></i></a></li>
                     </ul>
-                </nav>
-               
-    </header>
+                </div>
+                </nav>   
+            </div>          
     <main>
+
+        
 
 
         <div class="wrapper-contact">
-            <h1 class="main-heading"> <span class="heading-1">get in</span> <br> 
-                <span class="heading-2">touch.</span> 
-            </h1>
-        <form action="./"
-              class="info"
-              method="post"
-              name="info">
-              <div class="form-email">
-              <input type="email"
-                     class="info"
-                     id="userEmail">
-              <label for="userEmail">email.</label>
-              <br>
+            <article class="getintouch">
+                <h1 class="main-heading"> <span class="heading-1">get in</span> <br> 
+                    <span class="heading-2">touch.</span> 
+                </h1>
+                <form action="./"
+                      class="info"
+                      method="post"
+                      name="info">
+                    <div class="form-email">
+                        <input type="email"
+                               class="info"
+                               id="userEmail">
+                        <label for="userEmail">email.</label>
+                        <br>
+                    </div>
+                    <div class="form-username">
+                        <input type="text"
+                               class="info"
+                               id="userName">
+                        <label for="userName">name.</label>
+                        <br>
+                    </div>
+                    <div class="form-comments">
+                         <textarea name="comments" id="comments"></textarea>
+                        <label for="comments">comments?</label>
+                        <br>
+                    </div>
+                    <div class="receiveEmails">
+                    <input type="checkbox" id="receiveEmails" name="receiveEmails[]" value="receiveEmails">
+                    <label for="receiveEmails">I would like to receive promotional emails.</label>
+                    
+                </div>
+                <div class="form-button">
+                    <input type="submit" value="send.">
+                </div>
+                </form>
+    
+            </article>
+            <article class="contact-support">
+                <div class="sub-heading-flex">
+                    <section class="faqs">
+                            <h2>FAQs</h2>
+                            <h3>What is your return policy?</h3>
+                            <p>Please refer to our policy here.</p>
+                            <h3>What is your return policy?</h3>
+                            <p>Please refer to our policy here.</p>
+                            <h3>What is your return policy?</h3>
+                            <p>Please refer to our policy here.</p>
+                            <button>more FAQs</button>
+                        </section>
+                <section class="visit-us">
+                    <h1 class="sub-heading">visit us.</h1>
+                    <h3>we have a physical store now!</h3>
+                    <p>9-5  Mon-Fri
+                        <br>
+                        P: (123 456 7890
+                        <br>
+                        207 Main St. Vancouver, BC
+                    </p>
+                </section>
             </div>
-            <div class="form-username">
-              <input type="text"
-                     class="info"
-                     id="userName">
-              <label for="userName">name.</label>
-              <br>
-            </div>
-            <div class="form-comments">
-              <textarea name="comments" id="comments"></textarea>
-              <label for="comments">comments?</label>
-              <br>
-            </div>
-              <input type="checkbox" id="receiveEmails" name="receiveEmails[]" value="receiveEmails">
-              <label for="receiveEmails">I would like to receive promotional emails.</label>
-              <br>
-              <input type="submit" value="send.">
-        </form>
-    </div>
+                <section class="more-help">
+                        <h3>need some help?</h3>
+                        <h1>Contact Customer Support</h1>
+                    </section>
+              
+
+
+            </article>
+           
+
+        </div>
+
+
     </main>
 </div>
 </body>

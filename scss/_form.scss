@@ -1,17 +1,20 @@
+
 .info {
     background-color: $navbar-background;
-    border: 3px black solid;
+    border: 2px $borders-color solid;
+   
 
 
     input {
         width: 60%;
         line-height: 4em;
+        background-color: $background-fill;
     }
 
     label {
         font-family: $title-font-heavy;
         font-weight: 500;
-        font-size: em(18);
+        font-size: em(30);
     }
 
     .form-email {
@@ -28,10 +31,50 @@
         margin-left: em(60);
         margin-top: em(30);
 
+        label {
+            position: relative;
+            bottom: em(10);
+        }
+
         textarea {
             width: 60%;
             height: 60px;
+            border: 2px $borders-color solid;
         }
+
+    }
+
+    #receiveEmails {
+        width: em(20);
+
+    }
+    .receiveEmails {
+        color: black;
+        font-size: em(7);
+        position: relative;
+        left: 35%;
+        padding: em(10);
+        margin-bottom: em(20);
+        
+    }
+    .form-button {
+
+        
+        input {
+            width: 15%;
+            height: 10%;
+            background-color: $brand-color-black;
+            color: white;
+            font-size: 26px;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            left: 26.3%;
+            top: 71%;
+
+            
+        } 
 
     }
 }

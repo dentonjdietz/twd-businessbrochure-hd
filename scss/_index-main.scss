@@ -17,10 +17,11 @@
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 4vw);
+        padding-top: 30px;
 
         .image-1 {
-            grid-column: 5 / 11;
-            grid-row: 2 / 8;
+            grid-column: 4 / 11;
+            grid-row: 1 / 8;
         }
 
         .paragraph-box {
@@ -84,4 +85,17 @@
     z-index: 2;
     width: 8vw;
     grid-column: 5;
+}
+
+.grey-box {
+    background-color: black;
+    width: 15%;
+    height: 40vw;
+    position: absolute;
+    right: 0;
+    border: 3vw solid rgba(68, 68, 68, 0.418);
+    border-right: none;
+    top: 30vw;
+    opacity: .65;
+    
 }

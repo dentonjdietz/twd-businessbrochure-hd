@@ -1,6 +1,7 @@
 .container-products {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 60px;
 
     .products-bg {
         width: 70%;
@@ -53,4 +54,72 @@
 
     }
     
+}
+
+.products-content {
+    position: relative;
+}
+
+.products-info {
+    width: 600px;
+    background-color: $navbar-background;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 45vw;
+    padding: 50px;
+    font-family: $title-font-heavy;
+
+    h3 {
+        font-weight: 700;
+        font-size: 4vw;
+        margin: 0 0 25px 0;
+    }
+
+    p {
+        font-weight: bold;
+        padding: 0;
+        margin: 0 0 25 0;
+    }
+
+    h4 {
+        font-size: 2.6vw;
+        font-weight: 500;
+        margin: 25px 0 25px 0;
+    }
+
+    .product-info-list {
+        background-color: $background-fill;
+        padding: 20px;
+        padding-right: none;
+        padding-bottom: 30px;
+        margin-right: -50px;
+        margin-left: 50px;
+
+        p {
+            font-weight: 500;
+            font-size: 1.5vw;
+            line-height: 1.5;
+            width: 80%;
+
+        }
+    }
+
+}
+button {
+    background-color: $brand-color-dark;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+    border: none;
+    font-family: $title-font-heavy;
+    font-weight: 600;
+    display: block;
+    margin-left: 50%;
+    margin-top: 30px;
+    .add{
+        font-size: 1.2vw;
+        text-align: left;
+        font-weight: 300;
+    }
 }

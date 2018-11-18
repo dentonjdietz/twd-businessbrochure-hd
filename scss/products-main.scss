@@ -149,8 +149,6 @@ button {
 @media (max-width: 1200px){
 
     header {
-        height: 70px;
-        width: 100%;
         margin-left: 40px;
         h2 {
             padding-top: none;
@@ -158,7 +156,6 @@ button {
     }
     .container-products {
         width: 80%;
-        height: 100%;
         margin-bottom: 10vw;
 
         .products-bg {
@@ -193,6 +190,79 @@ button {
 }
 
 @media (max-width: 850px) {
-    
+    .container-products {
+        width: 90%;
+    }
+
+    footer {
+        ul {
+            width: 90%;
+            margin: none;
+            padding: 0;
+            padding-bottom: 15px;
+        }
+        
+    }
+}
+
+@media (max-width: 585px) {
+    header {
+        height: 70px;
+        display: block;
+        
+        h2 {
+            display: none;
+        }
+
+        svg {
+            display: none;
+        }
+
+        h1 {
+            width: 80%;
+            line-height: 70px;
+            font-size: 4vw;
+        }
+    }
+
+    .container-products {
+        margin-bottom: 35vw;
+        width: 100%;
+        margin-left: 0;
+        header {
+            display: block;
+            margin-left: 80px;
+        }
+
+        .products-info {
+            width: 100%;
+            padding: 10px;
+
+            h3 {
+                margin: 10px;
+                font-size: 1.75em;
+            }
+
+            .reviews {
+                margin: 10px;
+            }
+
+            h4 {
+                font-size: 1.3em;
+                margin-left: 10px;
+            }
+
+            .product-info-list {
+                width: 100%;
+                padding: 10px;
+                position: relative;
+                
+                p {
+                    font-size: 0.8em;
+                    line-height: 2;
+                }
+            }
+        }
+    }
 }
 

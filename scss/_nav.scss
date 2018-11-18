@@ -1,4 +1,14 @@
-nav {
+.nav-wrap {
+
+    .btn-menu {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+    nav {
 
     align-self: start;
     background-color: $navbar-background;
@@ -32,8 +42,8 @@ nav {
         font-family: $title-font-heavy;
         font-weight: 500;
         font-size: 1.3em;
-        padding: 0 1.4em;
-        margin-right: 30px;
+        padding: 0 1.4vw;
+        margin-right: 2vw;
     }
 
     .shopping a {
@@ -41,17 +51,77 @@ nav {
         font-size: 2.5em;
     }
 
-
-
-
-
     a img {
         color: black;
     }
 
 }
 
+@media screen and (max-width: 850px){
+    .mobile.show {
+        display: flex;
+        width: 100%;
 
+
+        ul {
+            width: 100vw;
+            height: auto;
+            z-index: 1100;
+            list-style: none;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.774);
+            border: 5vw rgba(0, 0, 0, 0.37) solid;
+            padding-left: 0;
+            margin-top: 70px;
+
+            li {
+                padding: 20px 0;
+                a {
+                    color: $background-fill;
+                    text-decoration: none;
+                    font-family: $title-font-heavy;
+                    font-weight: 500;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    
+    }
+
+    nav .rotation-box {
+        display: none;
+    }
+
+    .nav-wrap {
+        position: absolute;
+    }
+
+    
+        
+    .btn-menu {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.774);
+        border: none;
+        font-size: 1.3rem;
+        color: white;
+        text-transform: uppercase;
+        line-height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        z-index: 1000;
+        width: 70px;
+    }
+
+    
+
+    
+
+
+}
+
+button:focus {outline:0;}
 
 
 .rectangle {
@@ -59,6 +129,9 @@ nav {
     width: 45px;
     background-color: $navbar-background;
   }
+}
+
+
 
 /* 
 

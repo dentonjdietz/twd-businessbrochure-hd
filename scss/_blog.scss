@@ -34,6 +34,10 @@
                 margin: 0 0 0 auto;
                 width: 80%;
                 font-family: $title-font-heavy;
+
+                ul:last-child {
+                    margin-bottom: 4vw;
+                }
                 
                 a {
                     display: block;
@@ -112,6 +116,7 @@
                     font-size: 25vw;
                     right: 50%;
                     transform: translateX(50%);
+                    top: 3%;
                 }
             } 
         }
@@ -138,6 +143,19 @@
         }
     }
 
+}
+
+@media (max-width: 650px){
+    body {
+        .blog-banner {
+                h1 {
+                font-size: 25vw;
+                right: 50%;
+                transform: translateX(50%);
+                top: 20% !important;
+            }
+        } 
+    }
 }
 
 @media (max-width: 400px) {

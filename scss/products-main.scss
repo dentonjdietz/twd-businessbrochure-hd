@@ -70,6 +70,37 @@
     padding: 50px;
     font-family: $title-font-heavy;
 
+    .types {
+        margin-bottom: 20px;
+        border: none;
+        background-color: $navbar-background;
+        color: $brand-color-dark;
+        padding: 5px;
+        font-size: 1em;
+        font-family: $title-font-heavy;
+        font-weight: 700;
+    }
+
+    .plant-type {
+        font-size: 1em;
+        font-family: $title-font-heavy;
+        font-weight: 700;
+        display: flex;
+        p {
+            margin-right: 5px;
+            margin-top: 3px;
+        }
+
+        select{
+            border: $borders-color solid 3px;
+        }
+    }
+
+    .product-options {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
     h3 {
         font-weight: 700;
         font-size: 4vw;
@@ -236,6 +267,7 @@ button {
         .products-info {
             width: 100%;
             padding: 10px;
+            height: 100%;
 
             h3 {
                 margin: 10px;
@@ -262,6 +294,12 @@ button {
                 }
             }
         }
+    }
+}
+
+@media (max-width: 350px) {
+    footer {
+        margin-top: 200px;
     }
 }
 

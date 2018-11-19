@@ -10,7 +10,7 @@
             position: absolute;
             top: 10%;
             right: 10%;
-            font-size: 14em;
+            font-size: 18em;
             font-family: $title-font-heavy;
             font-weight: bolder;
             font-style: italic;
@@ -42,11 +42,13 @@
                 a {
                     display: block;
                     text-decoration: none;
+                    transition-duration: 0.3s;
                 }
 
                 a:hover {
                     background-color: $navbar-background;
                 }
+
                 article {
                     display: flex;
                     padding: 40px 20px;
@@ -97,7 +99,7 @@
     }           
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     section {
         min-width: 100%;
     }

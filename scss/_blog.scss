@@ -34,6 +34,8 @@
                 margin: 0 0 0 auto;
                 width: 80%;
                 font-family: $title-font-heavy;
+                border-bottom: 6px $brand-color-dark solid;
+                margin-bottom: 0;
 
                 ul:last-child {
                     margin-bottom: 4vw;
@@ -68,6 +70,13 @@
                     }
                 }
             }
+        }
+
+        .more-button {
+            padding: 2vw 3.5vw 2vw 2vw;
+            margin-top: -3vw;
+            margin-left: 60%;
+            
         }
         
         .image-black-box {

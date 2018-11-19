@@ -66,7 +66,7 @@
     position: absolute;
     top: 20%;
     right: 0;
-    height: 60%;
+    height: 75%;
     padding: 50px;
     font-family: $title-font-heavy;
 
@@ -135,14 +135,22 @@
         font-weight: 500;
         margin: 25px 0 25px 0;
     }
-
+    .border-right {
+        border-right: black solid 6px;
+        position: absolute;
+        content: "";
+        top: 10%;
+        bottom: 10%;
+        right: 0;
+    }
     .product-info-list {
         background-color: $background-fill;
         padding: 20px;
         padding-right: none;
-        padding-bottom: 30px;
         margin-right: -50px;
         margin-left: 50px;
+        padding-bottom: 50px;
+        position: relative;
 
         ul {
             margin-top: 0px;
@@ -198,12 +206,13 @@ button {
             position: absolute;
             right: 50%;
             transform: translateX(50%);
+            height: 60%;
             
             .product-info-list {
                 width: 100%;
                 margin: 0 auto;
                 position: relative;
-                
+                padding-bottom: 20px;
                 p {
                     font-size: 2vw;
                 }
@@ -294,6 +303,7 @@ button {
                 }
 
             }
+
         }
     }
 }

@@ -44,6 +44,12 @@
         font-size: 1.3em;
         padding: 0 1.4vw;
         margin-right: 2vw;
+        transition-duration: 0.3s;
+    }
+
+    a:hover {
+        font-size: 1.1em;
+        color: $borders-color;
     }
 
     .shopping a {

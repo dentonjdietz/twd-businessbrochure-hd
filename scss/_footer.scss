@@ -21,11 +21,17 @@ footer {
             a {
                 color: black;
                 text-decoration: none;
+                transition-duration: 0.3s;
             }
+
         }
 
         .instagram {
             grid-column: 18;
+            a:hover {
+                font-size: 1.3vw;
+                color: $borders-color;
+            }
         }
 
         .pinterest {

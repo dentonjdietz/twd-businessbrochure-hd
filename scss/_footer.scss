@@ -33,3 +33,22 @@ footer {
         }
     }
 }
+
+@media (max-width: 585px){
+    footer {
+        ul{
+        display: flex;
+        justify-content: center;
+            .names-footer {
+                display: none;
+            }
+            .back-top {
+                display: none;
+            }
+            font-size: 2em;
+            li {
+                margin: 10px 20px;
+            }
+        }
+    }
+}

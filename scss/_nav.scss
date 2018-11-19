@@ -88,6 +88,10 @@
                     font-family: $title-font-heavy;
                     font-weight: 500;
                     font-size: 1.5em;
+                    transition-duration: 0.3s;
+                }
+                a:hover {
+                    font-size: 1.3em;
                 }
             }
         }

@@ -18,7 +18,9 @@
 
         }
 
-
+        @media (max-width: 600px) {
+            font-size: em(100);
+        }
 
     }
 }
@@ -31,9 +33,14 @@
     background-color: $navbar-background;
 
     .sub-heading {
+
         font-family: $title-font-heavy;
         font-weight: 500;
         font-size: em(90);
+
+        @media (max-width: 700px) {
+            font-size: em(60);
+        }
 
     }
 
@@ -43,8 +50,7 @@
         padding: em(60);
         padding-bottom: 0;
         justify-content: space-between;
-        resize: both;
-        overflow: auto;
+        
 
         .visit-us {
             text-align: right;
@@ -59,6 +65,13 @@
                 padding: em(5);
                 line-height: 1.5;
 
+            }
+
+            @media (max-width: 1200px) {
+        
+                text-align: center;
+                margin: 30px auto;
+                
             }
         }
 
@@ -75,8 +88,6 @@
             }
 
             button {
-                     
-        
             width: 100px;
             height: 50px;
             background-color: $brand-color-black;
@@ -86,12 +97,36 @@
             margin: 0;
             margin-top: em(20);
             padding: 0;
-           
-
-            
         }
-    }
+
+
+        @media (max-width: 1200px) {
+        
+            text-align: center;
+
+            button {
+                position: relative;
+                left: 42%;
+        }
+        
+        
+
+        }
+        
+        
     
+    }
+
+    @media (max-width: 1200px) {
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        padding: 10px;
+    }
+
+
+
 }
 
 .more-help {
@@ -109,7 +144,9 @@
         font-size: 40px;
     }
 }
-    }
+
+}   
+
 
 @media (max-width: 1200px) {
 
@@ -118,9 +155,5 @@
         margin-right: 10%;
     }
 
-    .sub-heading-flex {
-        display: block;
-
-    }
 
     }

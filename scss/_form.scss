@@ -23,11 +23,18 @@
     .form-email {
         margin-left: em(60);
         margin-top: em(60);
+
+        @media (max-width: 950px) {
+            margin: 30px;
+        }
     }
 
     .form-username {
         margin-left: em(60);
         margin-top: em(30);
+        @media (max-width: 950px) {
+            margin: 30px;
+        }
     }
 
     .form-comments {
@@ -44,7 +51,36 @@
             height: 60px;
             border: 2px $borders-color solid;
         }
+         
+        @media (max-width: 1350px) {
+            
 
+            label {
+                position: relative;
+                bottom: 0;
+            }
+            
+        }
+            @media (max-width: 1200px) {
+            
+
+            
+           
+
+            @media (max-width: 950px) {
+                textarea {
+                    width: 100%;
+                }
+
+                margin: 30px;
+                
+
+            }
+            
+        }
+    
+    
+    
     }
 
     #receiveEmails {
@@ -74,16 +110,30 @@
             padding: 0;
             position: relative;
             left: 60px;
-            bottom: -40px;
-
-            
+            bottom: -40px;  
         } 
+        
 
+        @media (max-width: 600px) {
+            input {
+                width: 150px;
+                height: 60px;
+                background-color: $brand-color-black;
+                color: white;
+                font-size: 22px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                left: 80px;
+                bottom: -20px;  
+            } 
+        }
 
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1350px){
 
         label {
             display: block;
@@ -108,16 +158,19 @@
         width: 100%;
     }
 
-    .form-comments {
-        text-area {
-            width: 100%;
-        }
-    }
      
     .receiveEmails {
         position: relative;
         top: 0;
-        left: 10%;
+        left: 30%;
+    }
+
+    @media (max-width: 600px) {
+        .receiveEmails {
+            position: relative;
+            top: 0;
+            left: 10%;
+        }
     }
 
 

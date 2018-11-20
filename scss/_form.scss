@@ -3,7 +3,10 @@
     background-color: $navbar-background;
     border: 2px $borders-color solid;
    
-
+.getintouch {
+    resize: both;
+    overflow: auto;
+}
 
     input {
         width: 600px;
@@ -86,9 +89,7 @@
             display: block;
         }
         
-        input, textarea {
-            width: 80%;
-        }
+        
 
         .form-comments,
         .form-username,
@@ -96,5 +97,30 @@
             margin-right: em(60);
 
         }
+
+}
+
+@media (max-width: 950px) {
+
+    .getintouch {
+
+    input {
+        width: 100%;
+    }
+
+    .form-comments {
+        text-area {
+            width: 100%;
+        }
+    }
+     
+    .receiveEmails {
+        position: relative;
+        top: 0;
+        left: 10%;
+    }
+
+
+}
 
 }
